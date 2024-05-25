@@ -1,0 +1,115 @@
+.banner,
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-thistle);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.frameChild {
+  background-color: var(--color-white);
+}
+.circleIcon,
+.johnDoe {
+  z-index: 3;
+  position: absolute;
+}
+.johnDoe {
+  top: 57px;
+  left: 1268px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 156px;
+  height: 36px;
+  white-space: nowrap;
+}
+.circleIcon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  left: 5px;
+  top: 4px;
+  transform: scale(1.309);
+}
+.wrapperCircle {
+  position: absolute;
+  top: 38px;
+  left: 1152px;
+  border-radius: 50%;
+  width: 88px;
+  height: 88px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notificationIcon {
+  top: 52px;
+  left: 1044px;
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+.divider,
+.notificationIcon,
+.srvLogoIcon {
+  position: absolute;
+  z-index: 3;
+}
+.divider {
+  top: 48px;
+  left: 1123px;
+  border-right: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1px;
+  height: 71px;
+}
+.srvLogoIcon {
+  top: 16px;
+  left: 631px;
+  width: 203px;
+  height: 135px;
+  object-fit: contain;
+}
+.frameInner,
+.frameItem,
+.rectangleDiv {
+  position: absolute;
+  top: 70px;
+  left: 62px;
+  background-color: var(--color-gray-200);
+  width: 50px;
+  height: 1.9px;
+  z-index: 3;
+}
+.frameInner,
+.rectangleDiv {
+  top: 81.5px;
+}
+.rectangleDiv {
+  top: 93.1px;
+}
+.mainContent,
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.rectangleParent {
+  background-color: var(--color-white);
+  height: 165px;
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.mainContent {
+  background-color: var(--color-thistle);
+  height: 350px;
+  z-index: 1;
+}

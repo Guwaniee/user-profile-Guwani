@@ -1,0 +1,271 @@
+.johnDoe {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.contactInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi) 0 var(--padding-sm);
+}
+.melbourneAustralia {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  color: var(--color-dimgray);
+  z-index: 2;
+}
+.contactInfoParent,
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.detailsContainer {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-39xl) var(--padding-3xl) var(--padding-xl);
+}
+.count {
+  position: relative;
+  display: inline-block;
+  min-width: 42px;
+  z-index: 1;
+}
+.feedbackLabels {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+}
+.feedbacks {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  color: var(--color-dimgray);
+  min-width: 105px;
+  z-index: 1;
+}
+.feedbackContent,
+.feedbackHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.feedbackHeader {
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.feedbackContent {
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-6xs);
+}
+.feedbackDivider {
+  height: 100px;
+  width: 2px;
+  position: relative;
+  background-color: var(--color-dimgray);
+  transform: rotate(180deg);
+  z-index: 1;
+}
+.feedbackContainer {
+  width: 139px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  min-width: 139px;
+}
+.clientCount {
+  position: relative;
+  display: inline-block;
+  min-width: 24px;
+  z-index: 1;
+}
+.clientsContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+}
+.currentClients {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  color: var(--color-dimgray);
+  z-index: 1;
+}
+.clientsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  min-width: 151px;
+}
+.interactionsContent,
+.interactionsContentWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.interactionsContent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.interactionsContentWrapper {
+  width: 416px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.buttonFollowChild {
+  height: 50px;
+  width: 200px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslateblue);
+  display: none;
+}
+.home {
+  position: relative;
+  display: inline-block;
+  min-width: 70px;
+  z-index: 1;
+}
+.buttonFollow,
+.buttonMessageChild {
+  width: 200px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+}
+.buttonFollow {
+  background-color: var(--color-darkslateblue);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-41xl) var(--padding-base);
+  z-index: 1;
+}
+.buttonMessageChild {
+  height: 50px;
+  position: relative;
+  border: 2px solid var(--color-orange);
+  display: none;
+}
+.settings {
+  position: relative;
+  display: inline-block;
+  min-width: 96px;
+  z-index: 1;
+}
+.buttonFollowParent,
+.buttonMessage {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.buttonMessage {
+  width: 200px;
+  border-radius: var(--br-3xs);
+  border: 2px solid var(--color-orange);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-23xl) var(--padding-smi);
+  z-index: 1;
+  color: var(--color-black);
+}
+.buttonFollowParent {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-9xl);
+  color: var(--color-white);
+}
+.profileContent {
+  width: 485px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-42xl);
+  max-width: 100%;
+}
+.profileContentWrapper {
+  width: 1393px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-abhaya-libre);
+}
+@media screen and (max-width: 750px) {
+  .clientCount,
+  .count,
+  .johnDoe {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 675px) {
+  .profileContent {
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .johnDoe {
+    font-size: var(--font-size-10xl);
+  }
+  .melbourneAustralia {
+    font-size: var(--font-size-lgi);
+  }
+  .detailsContainer {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .count {
+    font-size: var(--font-size-10xl);
+  }
+  .feedbacks {
+    font-size: var(--font-size-lgi);
+  }
+  .feedbackContainer {
+    flex: 1;
+  }
+  .clientCount {
+    font-size: var(--font-size-10xl);
+  }
+  .currentClients {
+    font-size: var(--font-size-lgi);
+  }
+  .clientsContainer {
+    flex: 1;
+  }
+  .interactionsContent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .home,
+  .settings {
+    font-size: var(--font-size-3xl);
+  }
+  .buttonFollowParent {
+    flex-wrap: wrap;
+  }
+}
